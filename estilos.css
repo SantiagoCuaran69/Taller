@@ -1,0 +1,76 @@
+p, a, li, h1, h2, h3{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.cabecera{
+    overflow: hidden;
+    background: #dddddd;
+}
+
+.cabecera img{
+    display: block;
+    margin: auto;
+}
+
+.cabecera h1{
+    text-align: center;
+    font-size: 28px;
+    color: orange;
+}
+
+.cabecera h2{
+    font-size: 25px;
+    text-align: center;
+    color: dodgerblue; 
+}
+
+
+.menu{
+    background: #333;
+    overflow: hidden;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.menu ul li a:hover{
+    color: orange;
+}
+
+.iconos{
+    overflow: hidden;
+}
+
+.iconos h3{
+    text-align: center;
+    color: #444;
+    font-size: 26px;
+}
+
+.iconos div{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+}
+
+.iconos div img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.piedepagina{
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
